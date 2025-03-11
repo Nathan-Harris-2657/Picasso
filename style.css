@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(0, 247, 234);
+}
+
+.container1{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    
+}
+.One{
+    border: solid;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+}
+
