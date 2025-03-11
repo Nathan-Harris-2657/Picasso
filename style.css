@@ -1,20 +1,224 @@
 body{
-    background-color: rgb(0, 247, 234);
+    background-color: bisque;
 }
 
-.container1{
-    display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    
+header{
+    background-color: azure;
+    width: 400px; height: 50px;
+    border: solid 1px;
+    margin: auto;
 }
-.One{
-    border: solid;
+h1{
     text-align: center;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 5;
+}
+.goback{
+    text-align: center;
+}
+
+form{
+    background-color: aliceblue;
+    height: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: solid 2px;
+}
+.Title{
+    text-align: center;
+    margin: 4px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 30px;
+    
+
+}
+.Item1{
+    grid-area: 1/1;
+    background-color: rgb(125, 125, 255);
+    border-radius: 10px;
+    border: solid px blue;
+}
+.Item2{
+    grid-area: 2/2;
+    background-color: rgb(125, 125, 255);
+    border-radius: 100px;
+    border: solid 1px;
+    z-index: 1;
+    scale: 1.5;
+}
+.Item3{
+    grid-area: 3/3;
+    background-color: rgb(125, 125, 255);
+    border-radius:100px;
+    z-index: 3;
+    scale: 1.7;
+    border: solid 1px;
+}
+.Item4{
+    grid-area: 4/4;
+    background-color: rgb(125, 125, 255);
+    border-radius: 100px;
+    border: solid 1px;
+    z-index: 1;
+    scale: 1.5;
+}
+.Item5{
+    grid-area: 2;
+    background-color: rgb(90, 90, 255);
+    border-radius: 20px;
+}
+.Item6{
+    grid-area: 3/2;
+    background-color: rgb(90, 90, 255);
+    border-radius: 20px;
+    z-index: 2;
+}
+.Item7{
+    grid-area: 4/3;
+    background-color: rgb(90, 90, 255);
+    border-radius: 20px;
+    z-index: 2;
+}
+.Item8{
+    grid-area: 5/4;
+    background-color: rgb(90, 90, 255);
+    border-radius: 20px;
+}
+.Item9{
+    grid-area: 3;
+    background-color: rgb(75, 75, 255);
+    border-radius: 30px;
+}
+.Item10{
+    grid-area: 4/2;
+    background-color: rgb(75, 75, 255);
+    border-radius: 100px;
+    border: solid 1px;
+    z-index: 1;
+    scale: 1.5;
+
+}
+.Item11{
+    grid-area: 5/3;
+    background-color: rgb(75, 75, 255);
+    border-radius: 30px;
+}
+.Item12{
+    grid-area: 4/1;
+    background-color: rgb(50, 50, 255);
+    border-radius: 40px;
+}
+.Item13{
+    grid-area: 5/2;
+    background-color: rgb(50, 50, 255);
+    border-radius: 40px;
+}
+.Item14{
+    grid-area: 5/1;
+    background-color: rgb(0, 0, 255);
+    border-radius: 100px;
+}
+.Item15{
+    grid-area: 2/4;
+    background-color: rgb(75, 75, 255);
+    border-radius: 100px;
+    border: solid 1px;
+    z-index: 1;
+    scale: 1.5;
+
+}
+.Item16{
+    grid-area: 1/2;
+    background-color: rgb(90, 90, 255);
+    border-radius: 20px;
     
 }
+.Item17{
+    grid-area: 1/3;
+    background-color: rgb(75, 75, 255);
+    border-radius: 30px;
+}
+.Item18{
+    grid-area: 2/3;
+    background-color: rgb(90, 90, 255);
+    border-radius: 20px;
+    z-index: 1;
+}
+.Item20{
+    grid-area: 3/4;
+    background-color: rgb(90, 90, 255);
+    border-radius: 20px;
+    z-index: 1;
+}
+.Item21{
+    grid-area: 1/4;
+    background-color: rgb(50, 50, 255);
+    border-radius: 40px;
+}
+.Item22{
+    grid-area: 1/5;
+    background-color: rgb(0, 0, 255);
+    border-radius: 100px;
+
+}
+.Item23{
+    grid-area: 2/5;
+    background-color: rgb(50, 50, 255);
+    border-radius: 40px;
+}
+.Item24{
+    grid-area: 3/5;
+    background-color: rgb(75, 75, 255);
+    border-radius: 30px;
+}
+.Item25{
+    grid-area: 4/5;
+    background-color: rgb(90, 90, 255);
+    border-radius: 20px;
+}
+.Item26{
+    grid-area: 5/5;
+    background-color: rgb(125, 125, 255);
+    border-radius: 10px;
+}
+.Dot1{
+    grid-area: 2/2/5/5;
+    background-color: aqua;
+    border-radius: 200px;
+    border: solid 1px;
+    z-index: 0;
+    scale: 1.2;
+    
+    
+}
+.Dot2{
+    grid-area: 4/1;
+    background-color: rgb(125, 125, 255);
+    border-radius: 100px;
+    width:200px; height: 200px;
+    border: solid;
+}
+.Dot3{
+    grid-area: 1/4;
+    background-color: rgb(125, 125, 255);
+    border-radius: 100px;
+    width:200px; height: 200px;
+    border: solid;
+}
+
+
+
+
+
+
 
