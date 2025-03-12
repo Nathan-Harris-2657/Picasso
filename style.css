@@ -1,3 +1,17 @@
+@media (max-width: 480px)   {
+    .container2{
+     flex-direction: column;
+    }
+    form{
+     justify-content: center;
+    }
+    .container{
+     scale: .7;
+     place-content: center;
+    }
+ 
+ }
+ 
 body{
     background-color: bisque;
 }
